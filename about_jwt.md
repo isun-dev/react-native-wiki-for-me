@@ -7,3 +7,6 @@
 - 그렇기 때문에 액세스 토큰의 유효기간은 길면 안된다.
 - refresh token은 access token을 재발급받을 수 있는 token이다. 
 - refresh token은 서버에 저장이 된다.
+
+## 토큰 기반 이증에서 bearer 는 무엇일까?
+- https://velog.io/@cada/%ED%86%A0%EA%B7%BC-%EA%B8%B0%EB%B0%98-%EC%9D%B8%EC%A6%9D%EC%97%90%EC%84%9C-bearer%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C#bearer
