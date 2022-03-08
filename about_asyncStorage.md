@@ -1,4 +1,5 @@
-- 안드로이드 및 아이폰 기기 각각에서 AsyncStorage.clear(); 후 테스트해야 한다.
+## 사용시 주의사항
+안드로이드 및 아이폰 기기 각각에서 AsyncStorage.clear(); 후 테스트해야 한다.
 
 ## 설치 방법
 yarn add @react-native-async-storage/async-storage
