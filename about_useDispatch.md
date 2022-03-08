@@ -8,4 +8,11 @@ useDispatch는 반드시 리액트 컴포넌트 내에서만 사용해야 한다
 ```
 - 이에 대한 해결 방법으로는 
 - https://stackoverflow.com/questions/60643890/redux-dispatch-not-work-when-use-in-axios-interceptors
-- 위 링크에서 확인은 했다. 하지만 좀 더 자세한 답변을 찾아 봐야겠다.
+- 위 링크에서 확인은 했다.
+- 기존에 만들어논 store를 먼저 import 한 후, 아래와 같이 코드를 작성했고, FLIPPER 로 리덕스를 확인한 결과, state가 정상적으로 업데이트 된 것을 확인했다.
+```
+reduxStore.dispatch({
+  type: 'reducer 액션 타입',
+  payload: 저장 혹은 변경할 데이터 값,
+});
+```
