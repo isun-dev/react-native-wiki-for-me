@@ -42,7 +42,7 @@ const getData = async () => {
 - Current Async Storage's size is set to 6MB.
 - 6MB를 초과하면 (database or disk is full) 에러 발생
   
-## how to increase the async storage limit>
+## how to increase the async storage limit?
 - android/gradle.properties 에 AsyncStorage_db_size_in_MB 항목 추가
 ```
 AsyncStorage_db_size_in_MB=10
