@@ -38,7 +38,7 @@ const getData = async () => {
 ```
 
 
-## asyncstorage 사이즈
+## asyncstorage 사이즈 - 수정
 - Current Async Storage's size is set to 6MB.
 - 6MB를 초과하면 (database or disk is full) 에러 발생
   
